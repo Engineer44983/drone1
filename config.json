@@ -1,0 +1,29 @@
+{
+  "sdr": {
+    "enabled": true,
+    "frequency": 2400000000,
+    "sample_rate": 2400000,
+    "gain": "auto",
+    "ppm": 0,
+    "scan_range": 10000000
+  },
+  "wifi": {
+    "enabled": true,
+    "interface": "wlan1",
+    "monitor_mode": true,
+    "channels": [1, 6, 11],
+    "scan_interval": 5
+  },
+  "detection": {
+    "signal_threshold": -65,
+    "min_duration": 3,
+    "max_distance": 1000,
+    "alert_sound": true
+  },
+  "map": {
+    "provider": "osm",
+    "api_key": "",
+    "auto_update": true,
+    "heatmap": true
+  }
+}
